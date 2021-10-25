@@ -102,7 +102,7 @@ const scale = (num, in_min, in_max, out_min, out_max) => {
 cards.forEach((card) => {
     card.addEventListener('click', () => {
         if (currentActive === 3) {
-            window.location.href = "http://127.0.0.1:5500/contact.html"
+            window.location.href = "contact.html"
             return
         }
 
